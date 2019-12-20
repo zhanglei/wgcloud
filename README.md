@@ -56,8 +56,7 @@ host.properties，配置被监控主机信息，格式为ip=端口//主机用户
 
   
 
-## 微信&QQ群
+## 联系
 
 QQ群：623503772
 
-![赞赏](https://raw.githubusercontent.com/tianshiyeben/wgcloud/master/demo/wxq.jpg)
