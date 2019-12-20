@@ -20,18 +20,6 @@ http://www.wgstart.com
 
 
 
-![a.jpg](https://raw.githubusercontent.com/tianshiyeben/wgcloud/master/demo/demo1.jpg)
-
-![b.jpg](https://raw.githubusercontent.com/tianshiyeben/wgcloud/master/demo/demo2.jpg)
-
-![c.jpg](https://raw.githubusercontent.com/tianshiyeben/wgcloud/master/demo/demo3.jpg)
-
-![c.jpg](https://raw.githubusercontent.com/tianshiyeben/wgcloud/master/demo/demo4.jpg)
-
-![c.jpg](https://raw.githubusercontent.com/tianshiyeben/wgcloud/master/demo/demo5.jpg)
-
-
-
 ## 运行环境
 
 1.JDK1.8
