@@ -10,13 +10,13 @@ http://www.wgstart.com
 
 
 
-![a.jpg](https://raw.githubusercontent.com/tianshiyeben/wgcloud/v1.0/demo/a.jpg)
+![a.jpg](./demo/a.jpg)
 
-![b.jpg](https://raw.githubusercontent.com/tianshiyeben/wgcloud/v1.0/demo/b.jpg)
+![b.jpg](./demo/b.jpg)
 
-![c.jpg](https://raw.githubusercontent.com/tianshiyeben/wgcloud/v1.0/demo/c.jpg)
+![c.jpg](./demo/c.jpg)
 
-![d.jpg](https://raw.githubusercontent.com/tianshiyeben/wgcloud/v1.0/demo/d.jpg)
+![d.jpg](./demo/d.jpg)
 
 
 
