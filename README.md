@@ -29,6 +29,10 @@ Wgcloud is a distributed monitoring platform based on Java language. Its core mo
 
 4.So, DLL and other files of sigar required for wgcloud agent to run are listed in sigarLibs.zip It can be used after decompression.
 
+**5. If you feel that wgcloud has helped you, please support the wechat payment code of the website below. With your support, open source can do better. Thank you.**
+
+**6.If gpl3.0 cannot meet your needs, please contact me for more flexible authorization, tianshiyeben@qq.com .**
+
 ## download
 
 <http://www.wgstart.com>

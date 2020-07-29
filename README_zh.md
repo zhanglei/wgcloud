@@ -27,6 +27,10 @@ WGCLOUD基于java语言开发，是高性能高并发的分布式监控平台，
 
 4.wgcloud-agent运行所需sigar的so，dll等文件，在sigarLibs.zip里，解压后可用。
 
+**5.如果你觉得WGCLOUD帮助到了你，请在下方网站的微信付款码打赏支持下，有你的支持开源才能做的更好，感谢。**
+
+**6.如果GPL3.0 不能满足你的需求，请联系我获取更灵活的授权，tianshiyeben@qq.com**
+
 ## **下载**
 
 <http://www.wgstart.com>
