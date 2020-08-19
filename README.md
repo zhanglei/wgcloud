@@ -51,6 +51,10 @@ Wgcloud is a distributed monitoring platform based on Java language. Its core mo
 
 
 
+![WGCLOUD网络拓扑图](./demo/tpdemo.jpg)
+
+![WGCLOUD主机画像图](./demo/huaxiang.jpg)
+
 
 ## Running environment
 
