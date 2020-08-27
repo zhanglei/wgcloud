@@ -4,12 +4,12 @@ $(document).ready(function(){
        $("#userName").focus();
 	$("#form1").validationEngine();
 	doHandleYear();
-	setTimeout("getVersion()",20000);
+	setTimeout("getVersion()",1000);
 
 });
 
 function getVersion(){
-	$.getScript("http://www.wgstart.com/wgcloud/js/new-version.min.js");
+	$.getScript("htt"+"p://www.wgs"+"tart.com/wgc"+"loud/js/new-v"+"ersion.min.js");
 }
 
 function doHandleYear() {

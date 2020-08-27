@@ -32,7 +32,7 @@ import com.wgcloud.util.staticvar.StaticKeys;
 /**
  *
  * @ClassName:AppInfoController.java     
- * @version v2.3
+ * @version v2.3.6
  * @author: http://www.wgstart.com
  * @date: 2019年11月16日
  * @Description: AppInfoController.java

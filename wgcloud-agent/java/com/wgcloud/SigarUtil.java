@@ -13,7 +13,7 @@ import java.util.List;
 /**
  *
  * @ClassName:SigarUtil.java
- * @version V2.3
+ * @version V2.3.6
  * @author: wgcloud
  * @date: 2019年11月16日
  * @Description: SigarUtil.java

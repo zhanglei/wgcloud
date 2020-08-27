@@ -5,7 +5,6 @@ server:
 spring:
   application:
     name: wgcloud-agent
-#日志文件输出路径
 logging:
   path: ./log
 
