@@ -28,7 +28,7 @@ import java.util.concurrent.TimeUnit;
 /**
  *
  * @ClassName:ScheduledTask.java
- * @version v2.3
+ * @version v2.3.6
  * @author: http://www.wgstart.com
  * @date: 2019年11月16日
  * @Description: ScheduledTask.java

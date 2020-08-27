@@ -30,7 +30,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 /**
  *
  * @ClassName:DashboardCotroller.java     
- * @version v2.3
+ * @version v2.3.6
  * @author: http://www.wgstart.com
  * @date: 2019年11月16日
  * @Description: DashboardCotroller.java
@@ -233,7 +233,6 @@ public class DashboardCotroller {
      */
 	@RequestMapping(value="detail")
 	public String hostDetail(Model model,HttpServletRequest request) {
-		//服务器名称
 		String id = request.getParameter("id");
 		if(StringUtils.isEmpty(id)){
 			return "error/500";
@@ -298,7 +297,6 @@ public class DashboardCotroller {
 	 */
 	@RequestMapping(value="chart")
 	public String hostChart(Model model,HttpServletRequest request) {
-		//服务器名称
 		String id = request.getParameter("id");
 		String date = request.getParameter("date");
 		if(StringUtils.isEmpty(id)){

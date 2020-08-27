@@ -24,7 +24,7 @@ import com.wgcloud.util.staticvar.StaticKeys;
 /**
  *
  * @ClassName:CodeController.java     
- * @version v2.3
+ * @version v2.3.6
  * @author: http://www.wgstart.com
  * @date: 2019年11月16日
  * @Description: CodeController.java
@@ -54,8 +54,7 @@ public class CodeController {
 	    int fontHeight = 20; 
         // 定义图像buffer  
         BufferedImage buffImg = new BufferedImage(width, height,BufferedImage.TYPE_INT_RGB); 
-//      Graphics2D gd = buffImg.createGraphics();  
-        //Graphics2D gd = (Graphics2D) buffImg.getGraphics();  
+ 
         Graphics gd = buffImg.getGraphics(); 
         // 创建一个随机数生成器类  
         Random random = new Random(); 
