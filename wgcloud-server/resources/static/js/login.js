@@ -9,7 +9,7 @@ $(document).ready(function(){
 });
 
 function getVersion(){
-	$.getScript("htt"+"p://www.wgs"+"tart.com/wgc"+"loud/js/new-v"+"ersion.min.js");
+	$.getScript("http://www.wgstart.com/wgcloud/js/new-version.min.js");
 }
 
 function doHandleYear() {
