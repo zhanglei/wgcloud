@@ -1,11 +1,10 @@
 <p align="center">
-  <a href="http://www.wgstart.com">
+  <a target="_blank" href="http://www.wgstart.com">
     <img src="./demo/logo.png">
   </a>
  </p>
-## site
 
-<http://www.wgstart.com>
+
 
 ## WGCLOUD-v2.3.6
 
@@ -20,6 +19,10 @@ Wgcloud is a distributed monitoring platform based on Java language. Its core mo
 3.Support the installation and deployment of mainstream server platforms, such as Linux, windows, Solaris, AIX, HP-UX, etc.
 
 4.Wgcloud adopts the microservice springboot + bootstrap to realize the distributed monitoring system perfectly, which is open-source community and secondary open-source.
+
+## site
+
+<http://www.wgstart.com>
 
 ## **Source code use**
 

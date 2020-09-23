@@ -1,11 +1,10 @@
 <p align="center">
-  <a href="http://www.wgstart.com">
+  <a  target="_blank" href="http://www.wgstart.com">
     <img src="./demo/logo.png">
   </a>
  </p>
-## **网站**
 
-<http://www.wgstart.com>
+
 
 ## WGCLOUD-v2.3.6
 
@@ -18,6 +17,10 @@ WGCLOUD基于java语言开发，是高性能高并发的分布式监控平台，
 3.支持主流服务器平台安装部署，如Linux, Windows, Solaris, AIX, HP-UX等。
 
 4.WGCLOUD采用微服务springboot+bootstrap，完美实现了分布式监控系统，为反哺开源社区，二次开源。
+
+## **网站**
+
+<http://www.wgstart.com>
 
 ## **源码使用**
 
