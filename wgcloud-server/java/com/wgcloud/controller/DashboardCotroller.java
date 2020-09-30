@@ -30,7 +30,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 /**
  *
  * @ClassName:DashboardCotroller.java     
- * @version v2.3.6
+ * @version v2.3
  * @author: http://www.wgstart.com
  * @date: 2019年11月16日
  * @Description: DashboardCotroller.java
@@ -208,9 +208,13 @@ public class DashboardCotroller {
 	public String systemInfoList(SystemInfo systemInfo,Model model,HttpServletRequest request) {
 		Map<String, Object> params = new HashMap<String, Object>();
 		try {
+			StringBuffer url = new StringBuffer();
+			if(request.getParameter(StaticKeys.DASH_VIEW_ACCOUNT) != null){
+				url.append("&dashView=1");
+			}
 			PageInfo pageInfo = systemInfoService.selectByParams(params, systemInfo.getPage(), systemInfo.getPageSize());
 			PageUtil.initPageNumber(pageInfo,model);
-			model.addAttribute("pageUrl", "/dash/systemInfoList?1=1");
+			model.addAttribute("pageUrl", "/dash/systemInfoList?1=1"+url.toString());
 			model.addAttribute("page", pageInfo);
 		} catch (Exception e) {
 			logger.error("查询服务器列表错误：",e);
@@ -233,6 +237,7 @@ public class DashboardCotroller {
      */
 	@RequestMapping(value="detail")
 	public String hostDetail(Model model,HttpServletRequest request) {
+		//服务器名称
 		String id = request.getParameter("id");
 		if(StringUtils.isEmpty(id)){
 			return "error/500";
@@ -297,6 +302,7 @@ public class DashboardCotroller {
 	 */
 	@RequestMapping(value="chart")
 	public String hostChart(Model model,HttpServletRequest request) {
+		//服务器名称
 		String id = request.getParameter("id");
 		String date = request.getParameter("date");
 		if(StringUtils.isEmpty(id)){
