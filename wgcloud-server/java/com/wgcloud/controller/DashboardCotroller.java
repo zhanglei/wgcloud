@@ -1,20 +1,16 @@
 package com.wgcloud.controller;
 
-import java.util.*;
-
-import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
-
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.json.JSONUtil;
 import com.github.pagehelper.PageInfo;
 import com.wgcloud.dto.ChartInfo;
-import com.wgcloud.dto.MessageDto;
 import com.wgcloud.dto.NetIoStateDto;
 import com.wgcloud.entity.*;
 import com.wgcloud.service.*;
+import com.wgcloud.util.DateUtil;
 import com.wgcloud.util.FormatUtil;
 import com.wgcloud.util.PageUtil;
+import com.wgcloud.util.staticvar.StaticKeys;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,10 +18,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import com.wgcloud.util.DateUtil;
-import com.wgcloud.util.staticvar.StaticKeys;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  *

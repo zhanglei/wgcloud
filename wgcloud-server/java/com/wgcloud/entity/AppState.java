@@ -1,11 +1,9 @@
 package com.wgcloud.entity;
 
-import java.io.Serializable;
-import java.util.Date;
-
+import com.wgcloud.util.DateUtil;
 import org.apache.commons.lang3.StringUtils;
 
-import com.wgcloud.util.DateUtil;
+import java.util.Date;
 
 /**
  *

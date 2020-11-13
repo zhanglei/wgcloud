@@ -4,7 +4,6 @@ import ch.ethz.ssh2.Connection;
 import ch.ethz.ssh2.Session;
 import ch.ethz.ssh2.StreamGobbler;
 import com.wgcloud.common.ApplicationContextHelper;
-import com.wgcloud.controller.LogInfoController;
 import com.wgcloud.entity.HostInfo;
 import com.wgcloud.service.LogInfoService;
 import com.wgcloud.util.staticvar.StaticKeys;

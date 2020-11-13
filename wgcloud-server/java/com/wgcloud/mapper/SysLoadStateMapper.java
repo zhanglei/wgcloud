@@ -1,11 +1,10 @@
 package com.wgcloud.mapper;
 
-import java.util.List;
-import java.util.Map;
-
+import com.wgcloud.entity.SysLoadState;
 import org.springframework.stereotype.Repository;
 
-import com.wgcloud.entity.SysLoadState;
+import java.util.List;
+import java.util.Map;
 
 /**
  *

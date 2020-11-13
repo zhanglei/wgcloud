@@ -8,7 +8,6 @@ import com.wgcloud.entity.*;
 import com.wgcloud.service.LogInfoService;
 import com.wgcloud.service.SystemInfoService;
 import com.wgcloud.util.TokenUtils;
-import com.wgcloud.util.UUIDUtil;
 import com.wgcloud.util.msg.WarnMailUtil;
 import com.wgcloud.util.staticvar.BatchData;
 import org.slf4j.Logger;
@@ -28,7 +27,7 @@ import java.util.concurrent.TimeUnit;
 /**
  *
  * @ClassName:AgentController.java
- * @version v2.3.6
+ * @version v2.3
  * @author: http://www.wgstart.com
  * @date: 2019年11月16日
  * @Description: AgentController.java

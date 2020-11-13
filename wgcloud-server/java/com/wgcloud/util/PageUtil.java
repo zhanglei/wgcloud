@@ -4,10 +4,8 @@ package com.wgcloud.util;
 import com.github.pagehelper.PageInfo;
 import org.springframework.ui.Model;
 
-import java.io.File;
-import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**

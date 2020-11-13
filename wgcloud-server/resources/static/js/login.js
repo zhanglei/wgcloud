@@ -3,7 +3,6 @@
 $(document).ready(function(){
        $("#userName").focus();
 	$("#form1").validationEngine();
-	doHandleYear();
 	setTimeout("getVersion()",1000);
 
 });
@@ -12,11 +11,6 @@ function getVersion(){
 	$.getScript("http://www.wgstart.com/wgcloud/js/new-version.min.js");
 }
 
-function doHandleYear() {
-	var myDate = new Date();
-	var tYear = myDate.getFullYear();
-	$("#copyyear").html(tYear);
-}
 
 function setMd5Pwd(){
 	$("#md5pwd").val(hex_md5($.trim($("#passwd").val())));

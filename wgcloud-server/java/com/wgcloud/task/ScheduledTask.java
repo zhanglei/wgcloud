@@ -6,7 +6,8 @@ import com.wgcloud.config.CommonConfig;
 import com.wgcloud.entity.*;
 import com.wgcloud.mapper.*;
 import com.wgcloud.service.*;
-import com.wgcloud.util.*;
+import com.wgcloud.util.DateUtil;
+import com.wgcloud.util.RestUtil;
 import com.wgcloud.util.jdbc.ConnectionUtil;
 import com.wgcloud.util.jdbc.RDSConnection;
 import com.wgcloud.util.msg.WarnMailUtil;
@@ -28,7 +29,7 @@ import java.util.concurrent.TimeUnit;
 /**
  *
  * @ClassName:ScheduledTask.java
- * @version v2.3.6
+ * @version v2.3
  * @author: http://www.wgstart.com
  * @date: 2019年11月16日
  * @Description: ScheduledTask.java

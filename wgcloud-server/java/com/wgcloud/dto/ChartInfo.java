@@ -2,8 +2,6 @@ package com.wgcloud.dto;
 
 import com.wgcloud.entity.BaseEntity;
 
-import java.util.Date;
-
 /**
  *
  * @ClassName:ChartInfo.java

@@ -1,12 +1,8 @@
 package com.wgcloud.controller;
 
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
-
 import com.github.pagehelper.PageInfo;
+import com.wgcloud.entity.LogInfo;
+import com.wgcloud.service.LogInfoService;
 import com.wgcloud.util.CodeUtil;
 import com.wgcloud.util.PageUtil;
 import org.apache.commons.lang3.StringUtils;
@@ -16,13 +12,15 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.wgcloud.entity.LogInfo;
-import com.wgcloud.service.LogInfoService;
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  *
  * @ClassName:LogInfoController.java     
- * @version v2.3.6
+ * @version v2.3
  * @author: http://www.wgstart.com
  * @date: 2019年11月16日
  * @Description: LogInfoController.java

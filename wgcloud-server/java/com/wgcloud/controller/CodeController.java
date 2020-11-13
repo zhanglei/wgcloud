@@ -1,30 +1,26 @@
 package com.wgcloud.controller;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.image.BufferedImage;
-import java.io.IOException;
-import java.util.Random;
-
-import javax.imageio.ImageIO;
-import javax.servlet.ServletOutputStream;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-
+import com.wgcloud.util.staticvar.StaticKeys;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.wgcloud.util.staticvar.StaticKeys;
+import javax.imageio.ImageIO;
+import javax.servlet.ServletOutputStream;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+import java.util.Random;
 
 /**
  *
  * @ClassName:CodeController.java     
- * @version v2.3.6
+ * @version v2.3
  * @author: http://www.wgstart.com
  * @date: 2019年11月16日
  * @Description: CodeController.java
@@ -54,7 +50,8 @@ public class CodeController {
 	    int fontHeight = 20; 
         // 定义图像buffer  
         BufferedImage buffImg = new BufferedImage(width, height,BufferedImage.TYPE_INT_RGB); 
- 
+//      Graphics2D gd = buffImg.createGraphics();  
+        //Graphics2D gd = (Graphics2D) buffImg.getGraphics();  
         Graphics gd = buffImg.getGraphics(); 
         // 创建一个随机数生成器类  
         Random random = new Random(); 

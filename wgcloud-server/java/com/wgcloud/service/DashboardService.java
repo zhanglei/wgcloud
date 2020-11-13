@@ -1,21 +1,12 @@
 package com.wgcloud.service;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
-
-import org.springframework.stereotype.Service;
-
-import com.wgcloud.entity.AppState;
-import com.wgcloud.entity.CpuState;
-import com.wgcloud.entity.MemState;
-import com.wgcloud.entity.NetIoState;
-import com.wgcloud.entity.SysLoadState;
-import com.wgcloud.entity.TcpState;
 import com.wgcloud.util.DateUtil;
 import com.wgcloud.util.staticvar.StaticKeys;
+import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 /**
  *

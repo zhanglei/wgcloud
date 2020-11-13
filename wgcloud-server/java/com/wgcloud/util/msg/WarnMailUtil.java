@@ -1,7 +1,6 @@
 package com.wgcloud.util.msg;
 
 import com.wgcloud.common.ApplicationContextHelper;
-import com.wgcloud.config.CommonConfig;
 import com.wgcloud.config.MailConfig;
 import com.wgcloud.entity.*;
 import com.wgcloud.service.LogInfoService;

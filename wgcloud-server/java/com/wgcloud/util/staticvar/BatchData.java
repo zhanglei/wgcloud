@@ -1,10 +1,10 @@
 package com.wgcloud.util.staticvar;
 
+import com.wgcloud.entity.*;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
-import com.wgcloud.entity.*;
 
 
 /**

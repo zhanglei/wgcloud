@@ -1,11 +1,9 @@
 package com.wgcloud.controller;
 
-import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-
 import com.wgcloud.config.CommonConfig;
-import com.wgcloud.service.AppInfoService;
+import com.wgcloud.entity.AccountInfo;
+import com.wgcloud.util.shorturl.MD5;
+import com.wgcloud.util.staticvar.StaticKeys;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,9 +11,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.wgcloud.entity.AccountInfo;
-import com.wgcloud.util.shorturl.MD5;
-import com.wgcloud.util.staticvar.StaticKeys;
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 /**
  *

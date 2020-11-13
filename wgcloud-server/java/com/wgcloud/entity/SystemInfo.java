@@ -1,7 +1,5 @@
 package com.wgcloud.entity;
 
-import java.io.Serializable;
-import java.sql.Timestamp;
 import java.util.Date;
 
 /**

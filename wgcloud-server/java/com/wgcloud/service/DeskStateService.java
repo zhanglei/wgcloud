@@ -1,20 +1,17 @@
 package com.wgcloud.service;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import com.github.pagehelper.PageInfo;
-import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import com.wgcloud.mapper.DeskStateMapper;
-import com.wgcloud.entity.DeskState;
 import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import com.wgcloud.entity.DeskState;
+import com.wgcloud.mapper.DeskStateMapper;
 import com.wgcloud.util.DateUtil;
 import com.wgcloud.util.UUIDUtil;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
+import java.util.Map;
 
 /**
  *

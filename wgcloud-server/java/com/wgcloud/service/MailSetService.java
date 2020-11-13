@@ -4,7 +4,6 @@ import com.wgcloud.entity.MailSet;
 import com.wgcloud.mapper.MailSetMapper;
 import com.wgcloud.util.DateUtil;
 import com.wgcloud.util.UUIDUtil;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

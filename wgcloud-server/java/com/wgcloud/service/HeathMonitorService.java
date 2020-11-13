@@ -4,7 +4,6 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.wgcloud.entity.HeathMonitor;
 import com.wgcloud.mapper.HeathMonitorMapper;
-import com.wgcloud.mapper.AppStateMapper;
 import com.wgcloud.util.DateUtil;
 import com.wgcloud.util.UUIDUtil;
 import org.apache.commons.lang3.StringUtils;

@@ -2,7 +2,6 @@ package com.wgcloud.entity;
 
 import org.apache.commons.lang3.StringUtils;
 
-import java.sql.Timestamp;
 import java.util.Date;
 
 /**

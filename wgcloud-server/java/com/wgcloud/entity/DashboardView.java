@@ -1,7 +1,5 @@
 package com.wgcloud.entity;
 
-import java.io.Serializable;
-
 /**
  *
  * @ClassName:DashboardView.java     

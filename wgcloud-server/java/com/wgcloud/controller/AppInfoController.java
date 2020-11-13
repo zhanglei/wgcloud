@@ -1,21 +1,17 @@
 package com.wgcloud.controller;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
-
 import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import com.github.pagehelper.PageInfo;
-import com.wgcloud.entity.*;
+import com.wgcloud.entity.AppInfo;
+import com.wgcloud.entity.AppState;
+import com.wgcloud.entity.SystemInfo;
 import com.wgcloud.service.*;
 import com.wgcloud.util.CodeUtil;
 import com.wgcloud.util.DateUtil;
 import com.wgcloud.util.PageUtil;
 import com.wgcloud.util.TokenUtils;
+import com.wgcloud.util.staticvar.StaticKeys;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,12 +23,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.wgcloud.util.staticvar.StaticKeys;
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  *
  * @ClassName:AppInfoController.java     
- * @version v2.3.6
+ * @version v2.3
  * @author: http://www.wgstart.com
  * @date: 2019年11月16日
  * @Description: AppInfoController.java
