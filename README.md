@@ -48,6 +48,8 @@ WGCLOUD基于java语言开发，是高性能高并发的分布式监控平台，
 
 ![WGCLOUD监控主机列表](./demo/demo3.jpg)
 
+![WGCLOUD监控主机列表](./demo/daping.jpg)
+
 ![WGCLOUD监控图表](./demo/demo4.jpg)
 
 
