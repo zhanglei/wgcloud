@@ -12,15 +12,13 @@ WGCLOUD基于轻量级springboot架构，是高性能高并发的分布式监控
 
 1.采用服务端和客户端协同工作方式，更轻量，更高效，做集群调优后可支持5000+台主机监控。
 
-2.server端负责接受数据，处理数据，生成图表展示。agent端负责定时上报指标数据。
+2.server端负责接受数据，处理数据，生成图表展示。agent端默认每隔30秒(时间可调)上报指标数据。
 
 3.支持主流服务器平台安装部署，如Linux, Windows, Solaris, AIX, HP-UX等。
 
 4.WGCLOUD采用springboot+bootstrap，完美实现了分布式监控系统，为反哺开源社区，二次开源。
 
 5.v2.x为开源版，v3.x为商业版（分为免费版和专业版），商业版采用go编写agent，功能更强大，性能更优秀，请打开下方网站体验
-
-6.演示环境，在下方网址打开后，在网址顶部点击【演示】链接
 
 ## **网站**
 
@@ -40,7 +38,7 @@ WGCLOUD基于轻量级springboot架构，是高性能高并发的分布式监控
 
 4.wgcloud-agent运行所需sigar的so，dll等文件，在sigarLibs.zip里，解压后可用。
 
-**5.如果你觉得WGCLOUD帮助到了你，请在[www.wgstart.com](http://www.wgstart.com)打赏支持下，有你的支持开源才能做的更好，感谢。**
+**5.如果WGCLOUD帮助到了你，请在[www.wgstart.com](http://www.wgstart.com/help/docs4.html)打赏支持下，有你的支持开源才能做的更好**
 
 **6.如果GPL3.0 不能满足你的需求，请联系我获取更灵活的授权，感谢支持开源，tianshiyeben@qq.com**
 
