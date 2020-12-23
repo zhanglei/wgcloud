@@ -40,7 +40,7 @@ WGCLOUD基于轻量级springboot架构，是高性能高并发的分布式监控
 
 **5.如果WGCLOUD帮助到了你，请在[www.wgstart.com](http://www.wgstart.com/help/docs4.html)打赏支持下，有你的支持开源才能做的更好**
 
-**6.如果GPL3.0 不能满足你的需求，请联系我获取更灵活的授权，感谢支持开源，tianshiyeben@qq.com**
+**6.如果GPL3.0 不能满足你的需求，请联系我获取更灵活的授权，tianshiyeben@qq.com**
 
 
 
@@ -67,9 +67,9 @@ WGCLOUD基于轻量级springboot架构，是高性能高并发的分布式监控
 
 1.JDK1.8
 
-3.mysql5.6 或 5.7
+2.mysql5.6 或 5.7
 
-
+3.跨平台，linux：内核版本2.6.23或更高，CentOS/RHEL 6.0以上。windows：windows server 2003以上
 
 ## 联系
 
