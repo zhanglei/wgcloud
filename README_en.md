@@ -69,4 +69,6 @@ Wgcloud is a distributed monitoring platform based on Java language. Its core mo
 
 tianshiyeben@qq.com
 
+## thank
 
+Free license from JetBrains

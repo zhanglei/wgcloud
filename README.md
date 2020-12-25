@@ -75,4 +75,6 @@ WGCLOUD基于轻量级springboot架构，是高性能高并发的分布式监控
 
 邮箱：tianshiyeben@qq.com
 
+## 感谢
 
+JetBrains提供的免费license
